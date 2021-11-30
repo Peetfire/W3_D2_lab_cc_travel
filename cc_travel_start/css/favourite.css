@@ -24,9 +24,12 @@
   height: 24vh;
   color: white;
   padding-left: 20px;
-
+  align-self: flex-end;
 }
 
-.favourite > div > h3 {
+.favourite-text h3 {
   font-family: cursive;
+}
+
+.favourite-text {
 }
