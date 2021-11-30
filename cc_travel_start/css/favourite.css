@@ -1,0 +1,32 @@
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+  }
+  
+.favourite {
+  display: flex;
+  align-content: space-between;
+}
+
+.favourite > div {
+  background-size: cover 50%;
+  background-position: center;
+  flex: 33%;
+  margin: 4vw;
+  height: 24vh;
+  color: white;
+  padding-left: 20px;
+
+}
+
+.favourite > div > h3 {
+  font-family: cursive;
+}
