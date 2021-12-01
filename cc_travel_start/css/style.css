@@ -7,9 +7,18 @@ body {
   font-style: normal;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .nav-bg {
   background: #60B99A;
   color: white;
+  display: inline-block;
+  padding: 18px 41px;
+  border-radius: 5px;
+  text-align: center;
   text-decoration: none;
 } 

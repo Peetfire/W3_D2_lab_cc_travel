@@ -1,6 +1,5 @@
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
-    
   }
   
   .favourite-bg-2 {
@@ -12,24 +11,40 @@
   }
   
 .favourite {
-  display: flex;
-  align-content: space-between;
+  position: relative;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.favourite > div {
-  background-size: cover 50%;
-  background-position: center;
-  flex: 33%;
-  margin: 4vw;
-  height: 24vh;
-  color: white;
-  padding-left: 20px;
-  align-self: flex-end;
+.single-favourite {
+  height: auto;
+  width: 25%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 5px;
+  margin: 20px;
 }
 
 .favourite-text h3 {
-  font-family: cursive;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 2.5vw;
+  color: white;
+  margin-bottom: 0;
+  
 }
 
-.favourite-text {
+.favourite-text p {
+  font-size: 1vw;
+  color: white;
+  margin-top: 33px;
+  margin-bottom: 49px;
+}
+
+.favourite-text a {
+  font-size: 1vw;
+  padding: 5px 8px;
+  margin-bottom: 0;
+  margin-top: 0;
 }

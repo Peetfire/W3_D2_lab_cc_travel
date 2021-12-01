@@ -1,0 +1,70 @@
+.pop-bg-1 {
+    background-image: url(../img/destination/italy.png);
+  }
+.pop-bg-2 {
+    background-image: url(../img/destination/brazil.png);
+}
+.pop-bg-3 {
+    background-image: url(../img/destination/america.png);
+}
+.pop-bg-4 {
+    background-image: url(../img/destination/nepal.png);
+}
+.pop-bg-5 {
+    background-image: url(../img/destination/maldives.png);
+}
+.pop-bg-6 {
+    background-image: url(../img/destination/indonesia.png);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3vw;
+}
+
+header p {
+    color:grey;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text-container {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    z-index: 7;
+}
+
+.text-container a {
+    font-size: 1vw;
+    padding: 5px 8px;
+    border-radius: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.text-container h4 {
+    color: white;
+}
+
+.text-container a h4 {
+    display: inline-block;
+}
+
+.single-place {
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
